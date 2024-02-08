@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        CalculadoraSalaRetangular calculadora = new CalculadoraSalaRetangular();
+
+        calculadora.calcularArea(5,8);
+        calculadora.calcularPerimetro(5,8);
     }
 }
